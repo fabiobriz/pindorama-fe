@@ -1,0 +1,179 @@
+* {
+  color: #3b4c42;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1001px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+      font-size: 10px;
+  }
+
+}
+
+#body {
+  min-height: 80vh;
+  background-image: url("../public/img/background2.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  color: #3b4c42;
+}
+
+.colorPadrao2 {
+  background-color: #ced8be;
+}
+
+
+.colorPadrao {
+  background: #90ac8e;
+}
+
+#user{
+  height: 25vh;
+  width: 25vh;
+}
+
+
+.cardPromocao {
+  width: 25%;
+  height: auto;
+  display: inline-flex;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 23vh;
+}
+
+.imgIndex {
+  max-width: 100%;
+  height: auto
+}
+
+#contatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#prevencao img {
+  width: 100%;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+
+#comentarios img {
+  width: 90px;
+  border-radius: 50px;
+}
+
+
+table tr th {
+  right: 20px;
+}
+
+table tr td {
+  padding-right: 20px;
+}
+
+.close {
+  margin-top: -1.5rem;
+}
+
+.social-txt {
+  padding: 1rem;
+}
+
+.social-btn .btn {
+  margin: 0 0.5rem 1rem;
+}
+
+
+select option {
+  background: #ced8be;
+  color: #3b4c42;
+}
+
+
+.btn-outline-warning {
+  color: #3b4c42;
+  border-color: #50745f
+}
+
+  .btn-outline-warning:hover {
+      color: #000;
+      background-color: #50745f;
+      border-color: #50745f;
+  }
+
+  .btn-check:focus + .btn-outline-warning, .btn-outline-warning:focus {
+      box-shadow: 0 0 0 .25rem rgba(80,116,95,.5)
+  }
+
+  .btn-check:active + .btn-outline-warning, .btn-check:checked + .btn-outline-warning, .btn-outline-warning.active, .btn-outline-warning.dropdown-toggle.show, .btn-outline-warning:active {
+      color: #3b4c42;
+      background-color: #50745f;
+      border-color: #50745f
+  }
+
+      .btn-check:active + .btn-outline-warning:focus, .btn-check:checked + .btn-outline-warning:focus, .btn-outline-warning.active:focus, .btn-outline-warning.dropdown-toggle.show:focus, .btn-outline-warning:active:focus {
+          box-shadow: 0 0 0 .25rem rgba(80,116,95,.5)
+      }
+
+  .btn-outline-warning.disabled, .btn-outline-warning:disabled {
+      color: #3b4c42;
+      background-color: transparent
+  }
+
+.border-warning {
+  border-color: #50745f !important
+}
+
+
+.buttonText {
+  color: white;
+}
+
+nav {
+  min-height: 10vh;
+ }
+ 
+ .footer {
+   position: relative;
+   bottom: 0;
+   line-height: 10vh;
+   width: 100%;
+   white-space: nowrap;
+ }
+ 
+ #erroRegistro li {
+   list-style: none;
+   list-style-type: none;
+ }
+
+ marquee {
+  height: 6vh;
+ }
+
+ #imgcontato{
+   height: 5vh;
+ }
