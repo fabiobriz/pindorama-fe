@@ -1,7 +1,7 @@
 import axios from 'axios'
 import authHeader from "./auth-header";
 
-const API_URL = "http://localhost:8080/user/";
+const API_URL = "https://pindorama-be.herokuapp.com/user/";
 
 
 export const alterarUser = async(id,username ,email, password) => {

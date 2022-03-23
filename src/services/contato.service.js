@@ -1,6 +1,6 @@
 import axios from "axios";
 import authHeader from "./auth-header";
-const API_URL = "http://localhost:8080/contatos/";
+const API_URL = "https://pindorama-be.herokuapp.com/contatos/";
 
 export const buscarMensagens = async() => {
     return (await axios.get(API_URL,

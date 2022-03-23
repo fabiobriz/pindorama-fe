@@ -1,6 +1,6 @@
 import axios from "axios";
 import authHeader from "./auth-header";
-const API_URL = "http://localhost:8080/aldeias/";
+const API_URL = "https://pindorama-be.herokuapp.com/aldeias/";
 
 export const buscarAldeias = async() => {
     return (await axios.get(API_URL,

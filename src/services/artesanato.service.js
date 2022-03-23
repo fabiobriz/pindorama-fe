@@ -1,6 +1,6 @@
 import axios from "axios";
 import authHeader from "./auth-header";
-const API_URL = "http://localhost:8080/artesanatos/";
+const API_URL = "https://pindorama-be.herokuapp.com/artesanatos/";
 
 export const buscarArtesanatos = async() => {
     return (await axios.get(API_URL,
